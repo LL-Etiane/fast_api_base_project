@@ -1,10 +1,12 @@
-# Base folder structure for my fast api projects
-## How to run 
-1 create your virtual environment and activate it
-2 install requirements.txt file. 
-3 Copy .env.example to .env and set the correct values
-4 The project use makefile to automate running commands. You can type `make ` to see the available commands. For example 
-    - to start the server user `mak start`  
-    - to start celery `make start_celery`
-    - to generate migrations, `make migrations`
-    - to migrate the migrations, `make migrate`
+# Base folder structure for my FastAPI projects
+
+## How to run
+
+1. Create your virtual environment and activate it.
+2. Install the requirements from the `requirements.txt` file.
+3. Copy `.env.example` to `.env` and set the correct values.
+4. The project uses a Makefile to automate running commands. You can type `make` to see the available commands. For example:
+    - To start the server, use `make start`.
+    - To start Celery, use `make start_celery`.
+    - To generate migrations, use `make migrations`.
+    - To migrate the migrations, use `make migrate`.
